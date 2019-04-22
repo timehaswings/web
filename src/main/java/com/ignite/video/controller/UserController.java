@@ -18,7 +18,7 @@ public class UserController {
     @Autowired
     private UserMapper userMapper;
 
-    @ApiOperation(value="获取用户列表", notes="")
+    @ApiOperation(value="获取用户列表", notes="获取所有用户列表")
     @RequestMapping(value={""}, method= RequestMethod.GET)
     public List<User> getUserList() {
         List<User> r = userMapper.findAll();

@@ -3,6 +3,7 @@ package com.ignite.video.domain;
 
 import java.sql.Timestamp;
 
+
 public class User {
 
     private Long id;

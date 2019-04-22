@@ -20,6 +20,14 @@ public interface UserMapper {
     User findById(@Param("id") Long id);
 
     /**
+     * 查询一条用户记录
+     * @param id
+     * @return
+     */
+    @Select("SELECT * FROM ignite_user WHERE name = #{name} and password = #{password}")
+    User findByNamePass(String name,String password);
+
+    /**
      * 查询所有用户记录
      * @return
      */
