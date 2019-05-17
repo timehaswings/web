@@ -15,11 +15,11 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 mybatis.configuration.mapUnderscoreToCamelCase=true
 
 #邮件配置
-spring.mail.host=mail.huaqin.com
+spring.mail.host=smtp.163.com
 spring.mail.username=test@test.com
 spring.mail.password=test
 spring.mail.default-encoding=UTF-8
-spring.mail.properties.mail.smtp.ssl.trust=mail.huaqin.com
+spring.mail.properties.mail.smtp.ssl.trust=smtp.163.com
 spring.mail.properties.mail.smtp.socketFactory.port=465
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
